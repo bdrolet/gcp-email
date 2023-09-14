@@ -27,3 +27,10 @@ https://protobuf.dev/getting-started/pythontutorial/
 
 # Mailgun
 https://github.com/mailgun/mailgun.js/blob/master/docs/modules.md
+
+# Links
+https://cloud.google.com/pubsub/docs/publisher
+Installing Protoc (MacOS)
+http://google.github.io/proto-lens/installing-protoc.html
+Python Protocol Buffer Basics: https://protobuf.dev/getting-started/pythontutorial/
+Receive Message from Proto Schema: https://cloud.google.com/pubsub/docs/samples/pubsub-subscribe-proto-messages

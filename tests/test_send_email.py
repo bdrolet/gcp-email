@@ -5,6 +5,8 @@ from google.cloud.pubsub import PublisherClient
 project_id = "dp-website-397422"
 topic_id = "send-email"
 
+import send_email_pb2
+
 publisher_client = PublisherClient()
 topic_path = publisher_client.topic_path(project_id, topic_id)
 
