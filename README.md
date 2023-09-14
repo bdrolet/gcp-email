@@ -21,3 +21,9 @@ export PUBSUB_PROJECT_ID=my-project                                   ─╯
 gcloud beta emulators pubsub start \
     --project=$PUBSUB_PROJECT_ID \
     --host-port=localhost:5795
+
+# Compile the proto
+https://protobuf.dev/getting-started/pythontutorial/
+
+# Mailgun
+https://github.com/mailgun/mailgun.js/blob/master/docs/modules.md

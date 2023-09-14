@@ -1,0 +1,6 @@
+{
+    "from": "test@sandboxe4caaed5b28d4847baef2e43b7d1e36c.mailgun.org",
+    "to": "ben@drolet.cloud",
+    "subject": "Test Publis",
+    "text": "Help! I am stuck in the server!"
+}
