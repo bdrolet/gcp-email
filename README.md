@@ -35,5 +35,8 @@ http://google.github.io/proto-lens/installing-protoc.html
 Python Protocol Buffer Basics: https://protobuf.dev/getting-started/pythontutorial/
 Receive Message from Proto Schema: https://cloud.google.com/pubsub/docs/samples/pubsub-subscribe-proto-messages
 
+# Working Dir
+Note: working directory in Cloud Run is /workspace
+
 # OAuth
 Using default service account on Cloud Run instance. I wansn't able to get this working but others have had success. See [this StackOverflow post](https://stackoverflow.com/questions/53202767/gae-attributeerror-credentials-object-has-no-attribute-with-subject/57092533#57092533). [And this one](https://stackoverflow.com/questions/64658391/how-can-i-grant-a-cloud-run-service-access-to-service-accounts-credentials-with).

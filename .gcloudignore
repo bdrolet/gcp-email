@@ -12,6 +12,11 @@
 # below:
 .git
 .gitignore
+__pycache__
+.venv
+.env
+.vscode
+gmail_service_account.json
 
 node_modules
 #!include:.gitignore

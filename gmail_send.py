@@ -25,12 +25,14 @@ SCOPES: list[str] = [
     # https://developers.google.com/gmail/api/auth/scopes#gmail_scopes
     'https://www.googleapis.com/auth/gmail.send'
 ]
-SERVICE_ACCOUNT_FILE = 'gmail_service_account.json'
+SERVICE_ACCOUNT_FILE = os.getenv('GMAIL_SERVICE_ACCOUNT_FILE')
 
 def send_message(
     send_email_proto: SendEmail
 ) -> None:
     """Sends the Email through gmail."""
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    print(f"Current directory: {dir_path}")
     creds = _get_service_account()
 
     email: Email = Email(
